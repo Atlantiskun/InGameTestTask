@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A8022D427F6884800CDDAFB /* ApiCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8022D327F6884800CDDAFB /* ApiCaller.swift */; };
+		0A8022D727F68B1400CDDAFB /* Coctail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8022D627F68B1400CDDAFB /* Coctail.swift */; };
+		0A8022DA27F6F46E00CDDAFB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8022D927F6F46E00CDDAFB /* Extensions.swift */; };
 		0AAE9B2927F684DC000A1F76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE9B2827F684DC000A1F76 /* AppDelegate.swift */; };
 		0AAE9B2B27F684DC000A1F76 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE9B2A27F684DC000A1F76 /* SceneDelegate.swift */; };
 		0AAE9B2D27F684DC000A1F76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE9B2C27F684DC000A1F76 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A8022D327F6884800CDDAFB /* ApiCaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCaller.swift; sourceTree = "<group>"; };
+		0A8022D627F68B1400CDDAFB /* Coctail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coctail.swift; sourceTree = "<group>"; };
+		0A8022D927F6F46E00CDDAFB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		0AAE9B2527F684DB000A1F76 /* TestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AAE9B2827F684DC000A1F76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AAE9B2A27F684DC000A1F76 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +46,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A8022D227F6882F00CDDAFB /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0A8022D327F6884800CDDAFB /* ApiCaller.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		0A8022D527F68AFD00CDDAFB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0A8022D627F68B1400CDDAFB /* Coctail.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0A8022D827F6F44A00CDDAFB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0AAE9B2827F684DC000A1F76 /* AppDelegate.swift */,
+				0AAE9B2A27F684DC000A1F76 /* SceneDelegate.swift */,
+				0AAE9B3127F684DD000A1F76 /* Assets.xcassets */,
+				0A8022D927F6F46E00CDDAFB /* Extensions.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		0AAE9B1C27F684DB000A1F76 = {
 			isa = PBXGroup;
 			children = (
@@ -61,10 +94,10 @@
 		0AAE9B2727F684DC000A1F76 /* TestTask */ = {
 			isa = PBXGroup;
 			children = (
-				0AAE9B2827F684DC000A1F76 /* AppDelegate.swift */,
-				0AAE9B2A27F684DC000A1F76 /* SceneDelegate.swift */,
+				0A8022D827F6F44A00CDDAFB /* Resources */,
+				0A8022D527F68AFD00CDDAFB /* Models */,
+				0A8022D227F6882F00CDDAFB /* Managers */,
 				0AAE9B2C27F684DC000A1F76 /* ViewController.swift */,
-				0AAE9B3127F684DD000A1F76 /* Assets.xcassets */,
 				0AAE9B3327F684DD000A1F76 /* LaunchScreen.storyboard */,
 				0AAE9B3627F684DD000A1F76 /* Info.plist */,
 			);
@@ -85,7 +118,6 @@
 				A162EBD88ADE3943D88E85AD /* Pods-TestTask.debug.xcconfig */,
 				2EED656FA0F4920A9386FE2D /* Pods-TestTask.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -204,8 +236,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AAE9B2D27F684DC000A1F76 /* ViewController.swift in Sources */,
+				0A8022DA27F6F46E00CDDAFB /* Extensions.swift in Sources */,
 				0AAE9B2927F684DC000A1F76 /* AppDelegate.swift in Sources */,
 				0AAE9B2B27F684DC000A1F76 /* SceneDelegate.swift in Sources */,
+				0A8022D427F6884800CDDAFB /* ApiCaller.swift in Sources */,
+				0A8022D727F68B1400CDDAFB /* Coctail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
